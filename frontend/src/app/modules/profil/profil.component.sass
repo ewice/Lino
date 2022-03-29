@@ -1,0 +1,73 @@
+@import '../../../../../frontend/src/variables.sass'
+
+.notification-container, .profile-info-container, .projects-container
+  display: flex
+
+.notification-container
+  justify-content: flex-end
+  margin-right: 10px
+  position: relative
+
+  .notification
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    background-color: $lino-turquoise
+    border-radius: 5px
+    width: 20px
+    height: 20px
+    bottom: -5px
+    right: 0
+    pointer-events: none
+
+    p
+      font-weight: bold
+      color: white
+
+.profile-info-container
+  margin-top: 20px
+  align-items: flex-end
+
+.projects-container
+  justify-content: space-between
+  margin-top: 20px
+
+.notification-icon
+  margin-left: 20px
+  height: 25px
+
+#user-info
+  width: 100%
+  display: flex
+
+  .profile-picture
+    width: 50%
+    height: auto
+    border-radius: $radius-all
+
+#friend-info
+  text-align: center
+  width: 100%
+
+  .profile-picture-friend
+    width: 50%
+    height: auto
+    border-radius: $radius-all
+    margin: 0 auto
+    box-sizing: border-box
+    padding: 5px
+
+.name-button-container
+  margin-left: 20px
+  padding: 0px
+  width: 50%
+
+.btn-turquoise-sm-ol, .btn-turquoise-sm
+  width: 150px
+  margin-top: 10px
+
+.active
+  font-weight: $bold-weight
+  text-decoration: underline
+

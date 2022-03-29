@@ -1,0 +1,24 @@
+<header *ngIf="navAndHeaderActive">
+  <div class="logo">
+    <img src="../../../../assets/lino.svg" alt="" height="60px" srcset="">
+  </div>
+  <div class="toolbar">
+    <div class="backward" (click)="backwards()">
+      <img src="../assets/icons/icon-backward.png" alt="" srcset="">
+    </div>
+  </div>
+  <div id="circle"></div>
+</header>
+<main id="main" #main [ngStyle]="{'margin-top':navAndHeaderActive === true ? '210px' : '0px' }">
+  <router-outlet (activate)="onRouterOutletActivate($event)"></router-outlet>
+</main>
+<div class="content-container" *ngIf="navAndHeaderActive">
+  <nav class="nav-background">
+    <ul>
+      <li class="text-turquoise"><img src="../assets/icons/navigation/icon-profile.png" routerLink="profil" routerLinkActive="active-link"><span>Profil</span></li>
+      <li class="text-green"><img src="../assets/icons/navigation/icon-projects.png" routerLink="projekte" routerLinkActive="active-link"><span>Projekte</span></li>
+      <li class="text-orange"><img src="../assets/icons/navigation/icon-bookmark.png" routerLink="merkzettel" routerLinkActive="active-link"><span>Merkliste</span></li>
+      <li class="text-yellow"><img src="../assets/icons/navigation/icon-news.png" routerLink="neues" routerLinkActive="active-link"><span>Neues</span></li>
+    </ul>
+  </nav>
+</div>

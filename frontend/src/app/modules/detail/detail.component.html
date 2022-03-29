@@ -1,0 +1,31 @@
+<div *ngIf="project">
+  <div class="title-container">
+    <h1> {{project?.title}}</h1>
+  </div>
+
+  <div class="badge-container">
+    <app-difficulty-badge [difficulty]="project?.difficulty"></app-difficulty-badge>
+  </div>
+  <img class="projectpicture" *ngIf="project" src="https://linodh.herokuapp.com/{{project.imgUrl}}" alt="projectpicture" srcset="" width="100%">
+  <div class="pin" (click)="changePinStatus(project._id)" [ngClass]="pinService.pinStatus ? 'isPinned' : 'isUnpinned'"></div>
+  <p>
+  <span><strong>Alter: </strong> {{ project?.ageRange.minAge }} - {{ project?.ageRange.maxAge }} Jahre </span>
+  <span><strong>Zeit: </strong> {{ project?.requiredTime|minutePipe }} Stunden</span>
+  </p>
+  <div class="button-container">
+    <button class="btn-green" (click)="startProject()"  *ngIf="!projectIsActive">Projekt starten</button>
+    <button class="btn-green" (click)="stopProject()" *ngIf="projectIsActive">Projekt beenden</button>
+  </div>
+
+  <app-essential-card [materials]="project?.materials" [name]="'Material'"></app-essential-card>
+  <app-essential-card [materials]="project?.tools" [name]="'Werkzeuge'"></app-essential-card>
+
+  <div class="btn-container">
+  <button class="btn-green" routerLink="{{ stepUrl }}">Zur Anleitung</button>
+  </div>
+  <br>
+  <p><strong>Ergebnisse von Freunden</strong></p>
+
+  <app-project-end-card *ngFor="let feedPost of feedPosts" [friendResults]="feedPost"></app-project-end-card>
+  <p *ngIf="feedPosts?.length < 1">Noch keiner deine Freunde hat dieses Projekt beendet. Lege jetzt los und veröffentliche das erste Projekt!</p>
+</div>

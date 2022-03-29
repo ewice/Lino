@@ -1,0 +1,10 @@
+<div class="friendadd-card">
+  <div class="friendadd-icon-container">
+    <img *ngIf="friend.profilImageUrl" src="https://linodh.herokuapp.com/{{ friend.profilImageUrl }}" class="friendadd-icon" alt="icon">
+  </div>
+  <div class="friendadd-text-container">
+    <h5>{{ friend.username }}</h5>
+    <button class="btn-turquoise-sm" (click)="addFriend()" *ngIf="!send">Freundschaftsanfrage senden</button>
+    <button class="btn-turquoise-sm-ol" *ngIf="send">Gesendet</button>
+  </div>
+</div>

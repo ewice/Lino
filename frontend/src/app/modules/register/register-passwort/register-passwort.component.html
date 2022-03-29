@@ -1,0 +1,33 @@
+<div class="register">
+  <div id="lino">
+    <img src="../../../assets/lino.svg" alt="Lino" />
+    <p class="h1">Lino freut sich auf dein Profil!</p>
+  </div>
+  <form [formGroup]="signupForm"  (ngSubmit)="setUserData()">
+      <div class="form-group">
+          <label for="password">Passwort</label>
+          <div class="input">
+            <img class="img-right" src="../../../assets/password.svg" alt="Passwort Icon" />
+            <input [type]="hide1 ? 'password' : 'text'" formControlName="password" required />
+            <img class="img-left" (click)="hide1 = !hide1" [src]="hide1 ? '../../../assets/passwordShow.svg' : '../../../assets/passwordHide.svg'" [style.height]="hide1 ? '15px' : '19px'" alt="Passwort anzeigen" />
+          </div>
+          <p class="alert" *ngIf="password.invalid && password.touched" >
+              Passwort muss länger als 7 Zeichen sein.
+          </p>
+      </div>
+      <div class="form-group">
+        <label for="passwordConfirm">Passwort bestätigen</label>
+        <div class="input">
+          <img class="img-right" src="../../../assets/password.svg" alt="Passwort Icon" />
+          <input id="passwordinput" [type]="hide2 ? 'password' : 'text'" formControlName="passwordConfirm" required />
+          <img class="img-left" (click)="hide2 = !hide2" [src]="hide2 ? '../../../assets/passwordShow.svg' : '../../../assets/passwordHide.svg'" [style.height]="hide2 ? '15px' : '19px'" alt="Passwort anzeigen" />
+        </div>
+        <p class="alert" *ngIf="passwordConfirm.value != password.value" >
+          Passwörter stimmen nicht überein.
+        </p>
+      </div>
+      <div id="registerButton">
+        <button type="submit" [disabled]="!signupForm.valid" class="btn-turquoise">Weiter</button>
+      </div>
+  </form>
+</div>

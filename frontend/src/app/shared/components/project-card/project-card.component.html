@@ -1,0 +1,17 @@
+<div class="project-card">
+  <div class="container-left">
+    <div class="header-icons">
+      <div class="category-icons">
+        <img *ngFor="let category of cat" src="https://linodh.herokuapp.com/{{category.imgUrl}} " alt="">
+        <!-- <img src="../../../../assets/icons/icon-hammer.png" alt="hammer"> -->
+      </div>
+      <app-difficulty-badge [difficulty]=element.difficulty ></app-difficulty-badge>
+    </div>
+    <h3>{{element.title}}</h3>
+    <p><span class="text-bold">Alter: </span> {{ element.ageRange.minAge }} - {{ element.ageRange.maxAge }} Jahre<span></span></p>
+    <p><span class="text-bold">Zeit: </span>ca. {{ element.requiredTime|minutePipe }} Stunden<span></span></p>
+  </div>
+  <div class="container-right">
+    <img class="card-image" src="https://linodh.herokuapp.com/{{ element.imgUrl }}" alt="project-image">
+  </div>
+</div>

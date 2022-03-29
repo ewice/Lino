@@ -1,0 +1,17 @@
+<div class="category">
+    <div>
+        <h1>Profilebild anlegen</h1>
+        <form (ngSubmit)="createProfileImage()">
+        <div class="form-group">
+            <label for="image">Bild</label>
+            <br>
+            <input class="custom-file-input" type="file" (change)="onFileSelect($event)"/>
+        </div>
+        <div class="buttons">
+            <button type="submit" class="btn-green">Anlegen</button>
+            <button routerLink="/profile" class="btn-green-sm-ol cancel-button">Abbrechen</button>
+        </div>
+        </form>
+    </div>
+</div>
+  

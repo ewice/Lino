@@ -1,0 +1,898 @@
+[{
+  "_id": {
+    "$oid": "5ebcff0a8675df4332900d74"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9188675df4332900d6f"
+    }
+  ],
+  "tools": [],
+  "steps": [
+    {
+      "title": "Bohnen einweichen",
+      "description": "Nimm eines der Gläser, fülle es zur Hälfte mit Wasser und lege die Bohnen hinein. Weiche sie für eine Nacht darin ein.",
+      "imgUrl": "uploads/a_Schritt_1_bohnen.jpg"
+    },
+    {
+      "title": "Glas mit Watte auslegen",
+      "description": "Nimm etwas Watte und lege damit dein zweites Glas aus. Die Watte sollte ca. 2 bis 3 Zentimeter hoch den Boden des Glases bedecken.",
+      "imgUrl": "uploads/a_Schritt_2_bohnen.jpg"
+    },
+    {
+      "title": "Bohnen einpflanzen",
+      "description": "Lege deine Bohnen behutsam auf die Watte.",
+      "imgUrl": "uploads/a_Schritt_3_bohnen.jpg"
+    },
+    {
+      "title": "Bohnen wässern",
+      "description": "Befeuchte die Watte und deine Bohnen vorsichtig mit etwas Wasser.",
+      "imgUrl": "uploads/a_Schritt_4_bohnen.jpg"
+    },
+    {
+      "title": "Bohnen beim Wachsen zusehen",
+      "description": "Jetzt kann es losgehen. Beobachte, wie sich die Bohne entwickelt und wässere immer etwas nach, damit sie genug Wasser bekommt.",
+      "imgUrl": "uploads/a_Schritt_5_bohnen.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "2 Gläser",
+    "3 Bohnen",
+    "Watte",
+    "Wasser"
+  ],
+  "friendResults": [],
+  "title": "Bohnen pflanzen",
+  "description": "Bohnen wachsen unglaublich schnell. Die Bohnenpflanze macht jeden Tag große Fortschritte in ihrem Wachstum – von der ersten Wurzel, zum ganzen Wurzelstamm bis hin zur Pflanze.",
+  "imgUrl": "uploads/titel_bohnen.jpg",
+  "difficulty": 1,
+  "requiredTime": 20,
+  "ageRange": {
+    "minAge": 6,
+    "maxAge": 10
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd31f48675df4332900d7b"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9188675df4332900d6f" 
+    },
+    {
+      "$oid": "5ebcf9428675df4332900d70"
+    }
+  ],
+  "tools": [
+    "Säge",
+    "Bohrmaschine",
+    "Akkuschrauber",
+    "Hammer",
+    "Schleifpapier",
+    "Schleifklotz"
+  ],
+  "steps": [
+  	{
+      "title": "Bambus zuschneiden",
+      "description": "Schneide die Bambusstangen mit einer Garten- schere so lang zu, dass sie in die Tiefe der Schublade passen. Sollten sie noch nicht völlig hohl sein, kannst du die weiche Mitte bei einem Teil der Stäbchen mit einer Stricknadel öffnen.",
+      "imgUrl": "uploads/a_Schritt_1_hotel.jpg"
+    },
+    {
+      "title": "Holzscheit vielfach bohren",
+      "description": "Jetzt kannst du mit einem Holzbohrer in der Größe von 2 bis 10 mm Durchmesser vielfach in das Holzscheit bohren. Die meisten Löcher machst du mit den Bohrern, die 3 – 6 mm Durchmesser haben. Für diese Größen gibt es mehr Interessenten.",
+      "imgUrl": "uploads/a_Schritt_2_hotel.jpg"
+    },
+    {
+      "title": "Probeaufteilung des Insektenhotels",
+      "description": "Verteile dein Material probeweise auf der vorhandenen Fläche und finde heraus, wo du welche Unterteilungen hinbauen willst. Der schwere Backstein und das Holzscheit sollten relativ weit unten sein. Miss genau aus, wie lang deine Unterteilungen im Einzelnen sein müssen.",
+      "imgUrl": "uploads/a_Schritt_3_hotel.jpg"
+    },
+    {
+      "title": "Backstein abdichten",
+      "description": "Nehme etwas Lehm aus dem Garten oder vom Feld. Mache ihn feucht und schließe damit unseren Backstein von hinten. Damit erleichterst du den Insekten den Einzug.",
+      "imgUrl": "uploads/a_Schritt_4_hotel.jpg"
+    },
+    {
+      "title": "Unterteilung einbauen",
+      "description": "Nimm den Inhalt wieder raus und bringe eine Unterteilung aus passend zugesägten Holzbrettern an. Leime zuerst, bohre dann durch die Schublade und das Holz vor und setze soweit erforderlich Schrauben ein.",
+      "imgUrl": "uploads/a_Schritt_5_hotel.jpg"
+    },
+    {
+      "title": "Insektenhotel füllen",
+      "description": "Baue den Backstein und das Holzscheit, die Tontöpfchen, die Zapfen, Rindenstückchen und die Bambusstagen in das Insektenhotel ein. Die Tontöpfchen werden vorher mit Holzwolle vollgestopft. Besonders lose Pflanzenteile und kleine Zapfen sicherst du mit Drahtgeflecht.",
+      "imgUrl": "uploads/a_Schritt_6_hotel.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "alte Schublade",
+    "10 Bambusstängchen, 80 cm",
+    "Backstein",
+    "6 Tontöpfchen",
+    "Holzwolle",
+    "Tannenzapfen",
+    "Birkenscheit",
+    "Holzbretter",
+    "Drahtgeflecht",
+    "Holzleim",
+    "Schrauben"
+  ],
+  "friendResults": [],
+  "title": "Insektenhotel bauen",
+  "description": "Insekten finden in den Gärten nicht unbedingt einen passenden Unterschlupf zum Nisten. Daher bauen wir ein Insektenhotel.",
+  "imgUrl": "uploads/a_Schritt_6_hotel.jpg",
+  "difficulty": 2,
+  "requiredTime": 180,
+  "ageRange": {
+    "minAge": 10,
+    "maxAge": 14
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd39e08675df4332900d7c"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9848675df4332900d72"
+    }
+  ],
+  "tools": [
+    "Bleistift",
+    "Schere",
+    "Klebstoff"
+  ],
+  "steps": [
+    {
+      "title": "Transparentpapier zuschneiden",
+      "description": "Schneide das gelbe Transparentpapier zurecht, dass es 50 x 25 cm groß ist. Am einfachsten ist es, wenn du den 70 x 50 cm großen Bogen 1 x faltest, sodass dieser 35 x 50 cm groß ist und dann von der unteren Seite 10 cm wegschneidest.",
+      "imgUrl": "uploads/a_Schritt_1_minion.jpg"
+    },
+    {
+      "title": "Laternenboden",
+      "description": "Streiche den Rand des Laternenbodens mit dem Elefantenkleber ein und klebe das Transparentpapier um den Boden.",
+      "imgUrl": "uploads/a_Schritt_2_minion.jpg"
+    },
+    {
+      "title": "Laternendeckel",
+      "description": "Nun streichst du sowohl den Käseschachtel–Deckel als auch den Bereich, an dem sich die beiden Transparentpapier-Enden treffen mit Kleber ein und klebst alles vorsichtig zusammen.",
+      "imgUrl": "uploads/a_Schritt_3_minion.jpg"
+    },
+    {
+      "title": "Minion-Augen",
+      "description": "Schneide die einzelnen Teile der Augen aus. 2 Ringe mit 5 cm Durchmesser und 1 cm Breite aus dem schwarzen Tonpapier. 2 Kreise mit 5 cm Durchmesser aus dem weißen Tonpapier. 2 cm Kreise aus dem braunen Tonpapier und 1 cm Kreise aus dem schwarzen Tonpapier.",
+      "imgUrl": "uploads/a_Schritt_4_minion.jpg"
+    },
+    {
+      "title": "Minion-Hose",
+      "description": "Schneide die einzelnen Teile der Hose aus dem blauen Tonpapier aus. Die Hose ist ein 15 x 10 cm großes Rechteck. Die beiden Träger bestehen jeweils aus zwei 1 cm breiten Teilen, die 4 cm und 8 cm lang sind.",
+      "imgUrl": "uploads/a_Schritt_5_minion.jpg"
+    },
+    {
+      "title": "Augen und Hose aufkleben",
+      "description": "Klebe alle Teile wie auf dem Bild auf den Körper deiner Minion-Laterne.",
+      "imgUrl": "uploads/a_Schritt_6_minion.jpg"
+    },
+    {
+      "title": "Fast fertig",
+      "description": "Mache zwei Löcher für den Laternendraht und bringe ihn daran an.",
+      "imgUrl": "uploads/a_Schritt_7_minion.jpg"
+    }
+
+  ],
+  "likes": [],
+  "materials": [
+    "Käseschachtel, 15 cm Durchmesser",
+    "gelbes, extra starkes Transparentpapier (50 cm x 70 cm)",
+    "braunes Tonpapier, A4",
+    "blaues Tonpapier, A4",
+    "schwarzes Tonpapier, A4",
+    "weißes Tonpapier, A4",
+    "Laternendraht",
+    "Laternenstab mit LED"
+  ],
+  "friendResults": [],
+  "title": "Minion-Laterne",
+  "description": "Laterne für alle kleinen und großen Minion-Fans für den nächsten Laternenumzug.",
+  "imgUrl": "uploads/titel_minion.jpg",
+  "difficulty": 1,
+  "requiredTime": 45,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 12
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd53f68675df4332900d7d"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf95b8675df4332900d71"
+    }
+  ],
+  "tools": [
+    "Strickliesel",
+    "Stricknadel mit Stärke 3,0"
+  ],
+  "steps": [
+  	{
+      "title": "Einfädeln",
+      "description": "Fädele das Ende der Wolle von oben nach unten durch die Strieckliesel hindurch. Das Knäuel befindet sich dann am oberen Ende.",
+      "imgUrl": "uploads/a_Schritt_1_strickliesel.jpg"
+    },
+    {
+      "title": "Faden legen",
+      "description": "Im Uhrzeigersinn wird nun der Faden außen um die erste Öse gelegt. Führe den Faden anschließend nach innen und schräg nach rechts zur benachbarten Stricköse auf der rechten Seite. ",
+      "imgUrl": "uploads/a_Schritt_2_strickliesel.jpg"
+    },
+    {
+      "title": "Faden legen",
+      "description": "Führe den Faden wie auch schon bei der ersten Öse im Uhrzeigersinn außen um diese Öse. Dieser Vorgang wird nun bei den beiden anderen Ösen wiederholt. Lege den Faden nun bei der ersten Öse ab und zwar an der Stelle, an der du begonnen hast.",
+      "imgUrl": "uploads/a_Schritt_3_strickliesel.jpg"
+    },
+    {
+      "title": "Losstricken",
+      "description": "Lege den Faden für das Stricken einmal um den Zeigerfinger der linken Hand – bei Linkshändern ist dies der Zeigefinger der rechten Hand. So kann der Lauffaden stabil und griffbereit abgelegt werden. Halte die Strickliesel beim Stricken mit Daumen und den restlichen drei Fingern.",
+      "imgUrl": "uploads/a_Schritt_4_strickliesel.jpg"
+    },
+    {
+      "title": "Die erste Schlaufe",
+      "description": "Der lose Faden (Lauffaden) wird nun als Erstes über die Schlaufe, die sich bereits auf der Öse befindet, gelegt und genau wie auch die Schlaufe im Uhrzeigersinn außen geführt.",
+      "imgUrl": "uploads/a_Schritt_5_strickliesel.jpg"
+    },
+    {
+      "title": "Die erste Schlaufe",
+      "description": "Stich mit der Stricknadel von oben in die Schlaufe und ziehe diese über den Lauffaden. ",
+      "imgUrl": "uploads/a_Schritt_6_strickliesel.jpg"
+    },
+    {
+      "title": "Weitermachen",
+      "description": "So strickst du nun immer im Uhrzeigersinn von Öse zu Öse weiter. Lasse den Lauffaden locker mitlaufen, aber sei vorsichtig, dass das Konstrukt nicht zu lose wird.",
+      "imgUrl": "uploads/a_Schritt_8_strickliesel.jpg"
+    },
+    {
+      "title": "Weiter geht's",
+      "description": "Die Masche wird demnach von der Öse genommen, um aus dem Lauffaden eine Neue zu bilden. Hast du alles richtig gemacht, liegt nun die Masche aus Runde 1 in der Mitte an der Innenseite der Öse und auf der Öse befindet sich eine Neue.",
+      "imgUrl": "uploads/a_Schritt_7_strickliesel.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Wolle"
+  ],
+  "friendResults": [],
+  "title": "Stricklieseln",
+  "description": "Strickschläuche ganz einfach mit einer Strickliesel herstellen.",
+  "imgUrl": "uploads/titel_strickliesel.jpg",
+  "difficulty": 1,
+  "requiredTime": 45,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 10
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebe531e8675df4332900d7e"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9188675df4332900d6f"
+    },
+    {
+      "$oid": "5ebcf9848675df4332900d72"
+    },
+    {
+      "$oid": "5ebcf95b8675df4332900d71"
+    }
+  ],
+  "tools": [
+    "Messer",
+    "Pinsel",
+    "Schneidbrett",
+    "Wasserglas",
+    "Ausstechformen"
+  ],
+  "steps": [
+  	{
+      "title": "Kartoffeln vorbereiten",
+      "description": "Zu Beginn schneidest du die Kartoffeln in zwei Hälften.",
+      "imgUrl": "uploads/a_Schritt_1_kartoffel.jpg"
+    },
+    {
+      "title": "Stempelformen",
+      "description": "Jetzt kannst du mit den Ausstechförmchen mindestens zu drei Vierteln in die Kartoffelfläche einstechen.",
+      "imgUrl": "uploads/a_Schritt_2_kartoffel.jpg"
+    },
+    {
+      "title": "Stempelformen",
+      "description": "Anschließend schneidest du den Teil rund um die Ausstechform vorsichtig weg.",
+      "imgUrl": "uploads/a_Schritt_3_kartoffel.jpg"
+    },
+    {
+      "title": "Stempelformen",
+      "description": "Alternativ kannst du auch eigene Formen kreieren, indem du sie auf der Kartoffel vorzeichnest und mit dem Messer ausschneidest ",
+      "imgUrl": "uploads/a_Schritt_4_kartoffel.jpg"
+    },
+    {
+      "title": "Formen bepinseln",
+      "description": "Jetzt kann es losgehen: Streiche die Formen mit dem Pinsel ein. Mache am besten einen Probedruck auf Papier und bessere die Form wenn du möchtest nach.",
+      "imgUrl": "uploads/a_Schritt_5_kartoffel.jpg"
+    },
+    {
+      "title": "Stempeln",
+      "description": "Jetzt kannst du mit den Stempeln deinen Stoff bedrucken. Vor einem Farbwechsel solltest du die Kartoffel unbedingt waschen, damit sich die Farben nicht verschmischen.",
+      "imgUrl": "uploads/a_Schritt_6_kartoffel.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Shirt oder Baumwolltasche",
+    "Textilmalfarbe",
+    "große Kartoffeln",
+    "alter Karton"
+  ],
+  "friendResults": [],
+  "title": "Kartoffeldruck",
+  "description": "Textilien wie Taschen und Shirts mit eigenen Kartoffelstempeln bedrucken.",
+  "imgUrl": "uploads/titel_kartoffel.jpg",
+  "difficulty": 1,
+  "requiredTime": 90,
+  "ageRange": {
+    "minAge": 6,
+    "maxAge": 10
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebe5ebb8675df4332900d7f"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9968675df4332900d73"
+    }
+  ],
+  "tools": [
+    "Pizzaroller",
+    "Spritzbeutel",
+    "Backhofen",
+    "Backblech",
+    "Backpapier"
+  ],
+  "steps": [
+    {
+      "title": "Blätterteig",
+      "description": "Rolle den Blätterteig aus und schneide ihn mit dem Pizzaroller in 1 cm-dünne Streifen. Umwickle je ein Miniwürstchen mit 1-2 Blätterteig-Streifen und lasse dabei eine kleine Lücke für die Augen.",
+      "imgUrl": "uploads/a_Schritt_1_mumien.jpg"
+    },
+    {
+      "title": "Mumien backen",
+      "description": "Lege die eingewickelte Würstchen auf das mit Backpapier belegte Blech. Heize den Ofen auf 180 Grad vor. Bestreiche die Blätterteigstreifen mit Eiweiß und backe die Würstchen anschließend 15-20 Min.",
+      "imgUrl": "uploads/a_Schritt_2_mumien.jpg"
+    },
+    {
+      "title": "Mumienaugen",
+      "description": "Gib die Mayo in einen Spritzbeutel und spritze damit kleine Augen auf die ausgekühlten Würstchen. Fülle das Ketchup ebenfalls in einen kleinen Spritzbeutel, um Pupillen auf die Mayo-Augen aufspritzen.",
+      "imgUrl": "uploads/a_Schritt_3_mumien.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "1 Rolle Blätterteig",
+    "12 Mini-Würstchen",
+    "1 Eiweiß",
+    "2 EL Mayo",
+    "2 EL Ketchup"
+  ],
+  "friendResults": [],
+  "title": "Mumien-Würstchen",
+  "description": "Leckere Mumienwürstchen für die nächste Party oder einfach als Snack.",
+  "imgUrl": "uploads/titel_mumien.jpg",
+  "difficulty": 1,
+  "requiredTime": 35,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 12
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebe93cf8675df4332900d80"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9188675df4332900d6f"
+    }
+  ],
+  "tools": [
+    "Messer",
+    "Messbecher",
+    "Nussknacker",
+    "Schneidbrett"
+  ],
+  "steps": [
+    {
+      "title": "Kastanien knacken",
+      "description": "Spanne sie in den Nussknacker und presse, bis die Schale aufplatzt. Pule sie ab und schneidet die Früchte mit dem Messer in daumengroße Stücke.",
+      "imgUrl": "uploads/a_Schritt_1_kastanie.jpg"
+    },
+    {
+      "title": "Kastanien einweichen",
+      "description": "Gebe die Stücke in das Glas und kippe das Wasser dazu. Schraube den Deckel auf das Glas.",
+      "imgUrl": "uploads/a_Schritt_2_kastanie.jpg"
+    },
+    {
+      "title": "Ziehen lassen",
+      "description": "Lasse das Ganze mehrere Stunden ziehen. Die Flüssigkeit wird trübe und milchig – und wenn du sie etwas schüttelst, beginnt sie zu schäumen.",
+      "imgUrl": "uploads/a_Schritt_3_kastanie.jpg"
+    },
+    {
+      "title": "Absieben und loswaschen",
+      "description": "Gieße die entstandene Lauge durch ein Sieb in eine Schüssel oder einen Behälter. Jetzt kanns losgehen: Rubbele und wringe dein Kleidungsstück durch die Lauge, bis es sauber ist. Spüle es gründlich mit Wasser aus und hänge es zum Trocknen auf.",
+      "imgUrl": "uploads/a_Schritt_4_kastanie.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "6 bis 8 Rosskastanien",
+    "Schraubglas",
+    "300 ml Wasser"
+  ],
+  "friendResults": [],
+  "title": "Seife aus Kastanien",
+  "description": "Stelle deine eigene Seife aus Kastanien her und wasche deine Wäsche.",
+  "imgUrl": "uploads/kastanien-hand-c-1068868.jpg",
+  "difficulty": 1,
+  "requiredTime": 30,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 13
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebe95458675df4332900d81"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9188675df4332900d6f"
+    }
+  ],
+  "tools": [
+    "Luftballon",
+    "Wollpullover"
+  ],
+  "steps": [
+    {
+      "title": "Pfeffer und Salz",
+      "description": "Streue Salz und Pfeffer zusammen. Reibe den Luftballon ein paar Mal kräftig am Pullover. Führe nun den Ballon langsam knapp über die Gewürze, ohne sie zu berühren. Der Pfeffer springt an den Ballon und bleibt dort kleben.",
+      "imgUrl": "uploads/a_Schritt_1_luftballon.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Salz",
+    "Pfeffer"
+  ],
+  "friendResults": [],
+  "title": "Salz & Pfeffer",
+  "description": "Trenne Pfeffer und Salz mit der Hilfe von Elektrizität.",
+  "imgUrl": "uploads/titel_salzpfeffer.jpg",
+  "difficulty": 0,
+  "requiredTime": 10,
+  "ageRange": {
+    "minAge": 6,
+    "maxAge": 8
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebe9b778675df4332900d82"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9848675df4332900d72"
+    }
+  ],
+  "tools": [
+    "Schere",
+    "Tacker"
+  ],
+  "steps": [
+    {
+      "title": "Karton vorbereiten",
+      "description": "Spüle den Karton gut aus. Schneide die Oberseite und den Boden ab. Begradige die Schnittkanten und wische die Innenseiten trocken.",
+      "imgUrl": "uploads/a_Schritt_1_gelboerse.jpg"
+    },
+    {
+      "title": "Karton falten",
+      "description": "Falte zwei gegenüberliegende Seiten des Kartons nach innen. Seine Vorderseite – meist die \"schönste\" – sollte außen liegen. Drücke die Packung dann flach zusammen.",
+      "imgUrl": "uploads/a_Schritt_2_gelboerse.jpg"
+    },
+    {
+      "title": "Karton falten",
+      "description": "Knicke nun je ein Drittel der Verpackung von unten und von oben zur Mitte. Aus dem unteren und dem mittleren Teil werden die Geldfächer, der obere wird zur Deckelklappe.",
+      "imgUrl": "uploads/a_Schritt_3_gelboerse.jpg"
+    },
+    {
+      "title": "Karton einschneiden",
+      "description": "Schneide die Deckelklappe entlang der hinteren Falten auf beiden Seiten ein – bis zum Knick.",
+      "imgUrl": "uploads/a_Schritt_4_gelboerse.jpg"
+    },
+    {
+      "title": "Karton einschneiden",
+      "description": "Schneide nun, wie im Bild zu sehen, den inneren Teil der Deckelklappe entlang des Knicks ab.",
+      "imgUrl": "uploads/a_Schritt_5_gelboerse.jpg"
+    },
+    {
+      "title": "Zusammenheften",
+      "description": "Jetzt hast du vier Geldfächer. Hefte mit dem Tacker die beiden mittleren Fächer zusammen. Schiebe den Tacker dafür möglichst weit nach innen.",
+      "imgUrl": "uploads/a_Schritt_6_gelboerse.jpg"
+    },
+    {
+      "title": "Feinschliff",
+      "description": "Mach die Börse rund: Bringe mit einer Schere die Ecken der Deckelklappe in Form.",
+      "imgUrl": "uploads/a_Schritt_7_gelboerse.jpg"
+    },
+    {
+      "title": "Verschluss anbringen",
+      "description": "Zum Schluss kommt der Verschluss: Klebe die eine Seite des Klettbandes in die Deckelklappe, das Gegenstück passgenau auf das äußere Fach. So geht kein Cent verloren.",
+      "imgUrl": "uploads/a_Schritt_8_gelboerse.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "1 leerer Saftkarton",
+    "10 cm selbstklebendes Klettband"
+  ],
+  "friendResults": [],
+  "title": "Saftkartongeldbörse",
+  "description": "Bastel dir deine eigene Geldbörse aus alten Saftkartons.",
+  "imgUrl": "uploads/titel_gelboerse.jpg",
+  "difficulty": 1,
+  "requiredTime": 45,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 12
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec26198f01bfb9fd81ab2c5"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9848675df4332900d72"
+    }
+  ],
+  "tools": [],
+  "steps": [
+    {
+      "title": "Rücken und Flosse",
+      "description": "Zeichne eine fast gerade Linie mit einer Haifischflosse und setze einen Punkt für das Auge wie auf dem Bild.",
+      "imgUrl": "uploads/schritt1_hai.jpg"
+    },
+    {
+      "title": "Schwanzflosse",
+      "description": "Zeichne mit dem Bleistift die Schwanzflosse wie auf dem Bild.",
+      "imgUrl": "uploads/schritt2_hai.jpg"
+    },
+    {
+      "title": "Maul",
+      "description": "Nun gibst du dem Haifisch ein großes, grinsenden Maul.",
+      "imgUrl": "uploads/schritt3_hai.jpg"
+    },
+    {
+      "title": "Seitenflossen",
+      "description": "Nach dem Maul kommen die beiden Seitenflossen.",
+      "imgUrl": "uploads/schritt4_hai.jpg"
+    },
+    {
+      "title": "Bauch, Kiemen und Zähne",
+      "description": "Verbinde die Seitenflossen mit der Schwanzflosse und gib dem Haifisch scharfe Zähne und seitlich ein paar Kiemen.",
+      "imgUrl": "uploads/schritt5_hai.jpg"
+    },
+    {
+      "title": "Farbe",
+      "description": "Zieh eine Linie quer durch den Haifisch wie auf dem Bild und male die obere Hälfte mit dem Buntstift aus.",
+      "imgUrl": "uploads/schritt6_hai.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Papier",
+    "Bleistift",
+    "Blauer Buntstift"
+  ],
+  "friendResults": [],
+  "title": "Hai zeichnen",
+  "description": "Zeichne Schritt für Schritt einen lustigen Hai.",
+  "imgUrl": "uploads/schritt6_hai.jpg",
+  "difficulty": 0,
+  "requiredTime": 20,
+  "ageRange": {
+    "minAge": 6,
+    "maxAge": 12
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec27626f01bfb9fd81ab2c6"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9968675df4332900d73"
+    }
+  ],
+  "tools": [
+    "Schneidebrett",
+    "Messer",
+    "Holzspieße"
+  ],
+  "steps": [
+    {
+      "title": "Stücke schneiden",
+      "description": "Schneide das Brot und alle weitere Zutaten in kleine Stücke. ",
+      "imgUrl": "uploads/schritt1_spiess.jpg"
+    },
+    {
+      "title": "Aufspießen",
+      "description": "Spieße die Zutaten abwechselnd auf die Holzspieße.",
+      "imgUrl": "uploads/schritt2_spiess.jpg"
+    },
+    {
+      "title": "Kreationen",
+      "description": "Du kannst verschiedene Kreationen herstellen und dazu auch noch mehr Zutaten benutzen, die dir schmecken.",
+      "imgUrl": "uploads/schritt3_spiess.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Brot",
+    "Käse / Wurst",
+    "Mozzarella",
+    "Cocktailtomaten",
+    "Radieschen",
+    "Gurke"
+  ],
+  "friendResults": [],
+  "title": "Pausenbrot-Spieße",
+  "description": "Mache abwechslungsreiche Pausenbrot-Spieße für die Schule oder zum zuhause essen.",
+  "imgUrl": "uploads/schritt3_spiess.jpg",
+  "difficulty": 1,
+  "requiredTime": 30,
+  "ageRange": {
+    "minAge": 6,
+    "maxAge": 14
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec27927f01bfb9fd81ab2c7"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9968675df4332900d73"
+    }
+  ],
+  "tools": [
+    "Mixer",
+    "Eisförmchen"
+  ],
+  "steps": [
+    {
+      "title": "Früchte mixen",
+      "description": "Mixe alle drei Fruchtarten in einem separaten Schälchen.",
+      "imgUrl": "uploads/Schritt_1.jpg"
+    },
+    {
+      "title": "Einfrieren",
+      "description": "Fülle zuerst das Kiwimus in das Förmchen, sodass es ein Drittel füllt. Friere das Förmchen eine Stunde ein. Anschließend machst du das gleiche mit dem Pfirsichmus und dem Erdbeermus.",
+      "imgUrl": "uploads/schritt2_eis.jpg"
+    },
+    {
+      "title": "Fast fertig",
+      "description": "Jetzt muss das Eis nochmal richtig durchfrieren und schon ist dein Eis fertig. Wenn das Eis später nicht aus den Eisförmchen kommen will, kannst du es kurz in heißes Wasser tauchen.",
+      "imgUrl": "uploads/schritt3_eis.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Kiwi",
+    "Erdbeeren",
+    "Pfirsiche"
+  ],
+  "friendResults": [],
+  "title": "Fruchteis am Stiel",
+  "description": "Mach dein eigenes dreifarbiges Fruchteis am Stiel.",
+  "imgUrl": "uploads/schritt3_eis.jpg",
+  "difficulty": 1,
+  "requiredTime": 210,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 14
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec27c1ef01bfb9fd81ab2c8"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf95b8675df4332900d71"
+    }
+  ],
+  "tools": [
+    "Schere",
+    "Lineal",
+    "Filzstift"
+  ],
+  "steps": [
+    {
+      "title": "T-Shirt vorbereiten",
+      "description": "Dreh das T-Shirt auf links und schneide entlang der weißen Linien.",
+      "imgUrl": "uploads/schritt1_tasche.jpg"
+    },
+    {
+      "title": "Streifen schneiden",
+      "description": "Zeichne mit Stift und Lineal zehn Zentimeter über dem unteren Saum eine Linie ein. Schneide den Stoff von beiden Seiten vom Rand bis zur Linie in etwa ein Zentimeter breite Streifen.",
+      "imgUrl": "uploads/schritt2_tasche.jpg"
+    },
+    {
+      "title": "Streifen verknoten",
+      "description": "Die beiden Seitennähte schneidest du so ein, dass vier Streifen daraus werden. Verknote die jeweils übereinanderliegenden Streifen mit festen Doppelknoten.",
+      "imgUrl": "uploads/schritt3_tasche.jpg"
+    },
+    {
+      "title": "Umdrehen",
+      "description": "Wenn alle Streifen fest verknotet sind, stülpst du das T-Shirt auf rechts, Knoten und Fransen verschwinden so im fertigen Einkaufsbeutel.",
+      "imgUrl": "uploads/schritt4_tasche.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Altes T-Shirt"
+  ],
+  "friendResults": [],
+  "title": "Tasche ohne Nähen",
+  "description": "Mach dir eine schicke Tasche aus einem alten Shirt.",
+  "imgUrl": "uploads/tasche.jpg",
+  "difficulty": 1,
+  "requiredTime": 45,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 14
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec283f4f01bfb9fd81ab2c9"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9428675df4332900d70"
+    }
+  ],
+  "tools": [
+    "Schere",
+    "Permanentmarker"
+  ],
+  "steps": [
+    {
+      "title": "LED testen",
+      "description": "Klemm die Knopfbatterie so zwischen die beiden Beinchen der LED, dass das positive (längere) LED-Beinchen am positiven Pol der Batterie liegt. Dann sollte die LED leuchten.",
+      "imgUrl": "uploads/schritt1_ballon.jpg"
+    },
+    {
+      "title": "LED an Batterie anschließen",
+      "description": "Schneide zwei Stücke vom Klebeband ab und befestige damit beide Beinchen an der richtigen Seite der Knopfbatterie.",
+      "imgUrl": "uploads/schritt2_ballon.jpg"
+    },
+    {
+      "title": "Ballon zum Leuchten bringen",
+      "description": "Lass nun die Knopfbatterie samt leuchtender LED im Ballon verschwinden. Pass auf, dass er dabei nicht zerplatzt.",
+      "imgUrl": "uploads/schritt3_ballon.jpg"
+    },
+    {
+      "title": "Ballon aufblasen",
+      "description": "Wenn die Elektronik komplett im Luftballon verschwunden ist, kannst du ihn aufpusten und verknoten.",
+      "imgUrl": "uploads/schritt4_ballon.jpg"
+    },
+    {
+      "title": "Verschönern",
+      "description": "Verziere den Ballon wie es dir gefällt mit den Permanentmarkern.",
+      "imgUrl": "uploads/schritt5_ballon.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "Luftballon",
+    "3V Knopfbatterie (CR 2032)",
+    "LED",
+    "etwas Schnur",
+    "Klebeband"
+  ],
+  "friendResults": [],
+  "title": "LED Leuchtballon",
+  "description": "Diese leuchtenden Luftballons sind ganz schnell selbst gebaut und sollten auf keiner Party fehlen!",
+  "imgUrl": "uploads/ballon.jpg",
+  "difficulty": 1,
+  "requiredTime": 30,
+  "ageRange": {
+    "minAge": 8,
+    "maxAge": 14
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec283f4f01bfb9fd81ab2d1"
+  },
+  "categories": [
+    {
+      "$oid": "5ebcf9188675df4332900d6f" 
+    },
+    {
+      "$oid": "5ebcf9428675df4332900d70"
+    }
+  ],
+  "tools": [
+    "Akku-Säge",
+    "Spaten",
+    "Leiter",
+    "Arbeitshandschuhe"
+  ],
+  "steps": [
+  	{
+      "title": "Bereich abmessen",
+      "description": "Markiere den Kreis, indem du zunächst einen Pflock in den Boden schlägst und ihn mit einem Seil auf einem Meter Abstand mit dem Spaten verknotest. Führe das gespannte Seil wie einen Zirkel um den Pflock herum und steche immer wieder mit dem Spaten in die Erde, um den Kreis zu kennzeichnen.",
+      "imgUrl": "uploads/Schritt_1_tipi.jpg"
+    },
+    {
+      "title": "Kreis graben",
+      "description": "Entlang der kreisförmigen Markierung hebst du einen etwa 40 Zentimeter tiefen, spatenbreiten Graben aus. Spare einen Bereich von 70cm aus, der später als Tipi-Eingang zum hinein- und hinauskrabbeln dient.",
+      "imgUrl": "uploads/Schritt_2_tipi.jpg"
+    },
+    {
+      "title": "Grundgerüst",
+      "description": "Schneide zehn stabile Weidenstecken auf eine Länge von je drei Meter zu. Im Abstand von 60 Zentimetern werden die Ruten in den Graben gepflanzt. Lehne die Weidentriebe am oberen Ende aneinander.",
+      "imgUrl": "uploads/Schritt_3_tipi.jpg"
+    },
+    {
+      "title": "Zusammenbinden",
+      "description": "Anschließend bindest du die langen Ruten kurz unterhalb der Spitze mit einem langen Seil zusammen. So erhält das Zelt die typische Tipi-Form.",
+      "imgUrl": "uploads/Schritt_4_tipi.jpg"
+    },
+    {
+      "title": "Weidenruten einflechten",
+      "description": "Je nachdem, wie blickdicht das Weidengeflecht sein soll, flechtest du zwischen die kräftigen Ruten die dünnen Flechtruten ein. Wichtig: Eingangsbereich des Tipis freihalten!",
+      "imgUrl": "uploads/Schritt_5_tipi.jpg"
+    },
+    {
+      "title": "Fast fertig",
+      "description": "Wenn alle Weiden platziert sind, füllst du den Graben wieder vollständig mit Erde und drückst alles gut an. Zum Schluss die Weidenruten gründlich wässern. Dann kannst du dein Tipi gemütlich machen.",
+      "imgUrl": "uploads/Schritt_6_tipi.jpg"
+    }
+  ],
+  "likes": [],
+  "materials": [
+    "10 stabile Weidenstangen (3 m lang)",
+    "1mehrere biegsame Weidenruten",
+    "Hanfseil (5 m lang)",
+    "Seil (ca. 1,2 m lang)",
+    "Pflock"
+  ],
+  "friendResults": [],
+  "title": "Weidentipi bauen",
+  "description": "Baue dein eigenes Tipi in deinem Garten aus Weidenstangen.",
+  "imgUrl": "uploads/Schritt_6_tipi.jpg",
+  "difficulty": 2,
+  "requiredTime": 180,
+  "ageRange": {
+    "minAge": 10,
+    "maxAge": 14
+  },
+  "__v": 0
+}]

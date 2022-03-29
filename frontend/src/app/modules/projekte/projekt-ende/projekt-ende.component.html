@@ -1,0 +1,31 @@
+<div class="title-container">
+  <h1> {{project?.title}}</h1>
+</div>
+
+<div *ngIf="compNr === 0" class="like-container">
+  <p class="h1 text-center">
+    Hat dir das Projekt gefallen?
+  </p>
+  <div class="button-container">
+    <button class="btn-turquoise" (click)="vote(1)"> <span id="like">JA</span></button>
+    <button class="btn-turquoise" (click)="vote(0)"> <span id="dislike">NEIN</span></button>
+  </div>
+</div>
+<div *ngIf="compNr === 1" class="post-container">
+  <p>Lass deine Freunde wissen, was du geschafft hast:</p>
+  <div  class="add-photo-container">
+    <img src="../../../../assets/icons/icon-addPhoto.png" *ngIf="camVisible == 0" width="60%" alt="">
+    <webcam *ngIf="camVisible == 1" [trigger]="triggerObservable" (imageCapture)="handleImage($event)" [width]="300"  [width]="364"></webcam>
+    <img *ngIf="camVisible == 2" width="100%" [src]="webcamImage.imageAsDataUrl"/>
+  </div>
+  <button class="btn-yellow" (click)="finishPhoto()">Weiter</button>
+  <button *ngIf="camVisible !== 2" class="btn-yellow" (click)="addPhoto()">Foto hinzufügen</button>
+    <button *ngIf="camVisible === 2" class="btn-yellow" (click)="addPhoto()">Foto wiederholen</button>
+</div>
+<div *ngIf="compNr === 2" class="post-content">
+  <p>
+    Lass deine Freunde wissen, was du geschafft hast:
+  </p>
+  <textarea type="text" maxlength="250" placeholder="Text hinzufügen" name="" id="post-text" #posttextvalue></textarea>
+  <button class="btn-yellow" (click)="sendPost()" >Teilen</button>
+</div>

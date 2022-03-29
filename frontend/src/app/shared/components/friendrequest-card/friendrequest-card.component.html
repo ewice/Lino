@@ -1,0 +1,10 @@
+<div class="friendrequest-card">
+  <div class="friendrequest-icon-container">
+    <img src="https://linodh.herokuapp.com/{{ request.profilImageUrl }}" class="friendrequest-icon" alt="icon">
+  </div>
+  <div class="friendrequest-text-container">
+    <h5>{{ request.username }}</h5>
+    <button class="btn-turquoise-sm" (click)="addFriend()">Annehmen</button>
+    <button class="btn-turquoise-sm-ol" (click)="deleteInvitation()">Ablehnen</button>
+  </div>
+</div>

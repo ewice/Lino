@@ -1,0 +1,16 @@
+<div class="title-container">
+  <h1>Neues</h1>
+</div>
+<div *ngIf="loaded">
+  <div *ngIf="(someArray.length > 0)">
+  <div *ngFor="let item of someArray" >
+    <app-project-begin-card *ngIf="checkType(item)" [element]="item" (click)="navigate(item.projectId)"></app-project-begin-card>
+    <app-project-end-card *ngIf="!checkType(item)" [friendResults]="item" (click)="navigate(item.projectId)"></app-project-end-card>
+  </div>
+  </div>
+  <div *ngIf="someArray.length == 0">
+    <p>
+      Deine Freunde haben bisher noch nichts veröffentlicht.
+    </p>
+  </div>
+</div>

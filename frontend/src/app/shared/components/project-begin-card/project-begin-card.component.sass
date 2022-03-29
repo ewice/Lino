@@ -1,0 +1,74 @@
+
+@import '../../../../variables.sass'
+
+
+/* GLOBAL STYLING */
+
+h3
+  margin: 0px 0px 5px 0px
+
+p
+ margin: 0
+
+
+/* CARD */
+
+.project-card
+  background-color: $lino-petrol-light
+  height: auto
+  width: 100%
+  border-radius: $radius-all
+  box-shadow: $shadow
+  margin-bottom: 15px
+
+  .user
+    padding: 15px 0
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    .profile-picture
+      height: 56px
+      width: 56px
+      margin: 0 20px
+      border-radius: 10px
+
+    p
+      padding-top: 5px
+
+    .username
+      padding-top: 0
+
+  hr
+    width: 100%
+    height: 1px
+    margin: 0 auto
+    background-color: $lino-blue
+    border: none
+
+  .project-info
+    padding: 15px 20px 15px 20px
+    display: flex
+    justify-content: space-between
+
+    .box-left
+      width: 70%
+      float: left
+
+    .box-right
+      width: 30%
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+
+      .like-icon
+        height: 40px
+        width: 40px
+        margin-top: -30px
+        margin-right: -10px
+        filter: drop-shadow($shadow)
+
+      .project-picture
+        height: auto
+        width: 100%
+        border-radius: $radius-all

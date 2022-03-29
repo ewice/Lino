@@ -1,0 +1,4 @@
+<div class="title-container">
+  <h1>{{category?.title}}</h1>
+</div>
+<app-project-card *ngFor="let pro of projekte" [element]=pro (click)="navigate(pro._id)" style="margin-top: 300px;"></app-project-card>

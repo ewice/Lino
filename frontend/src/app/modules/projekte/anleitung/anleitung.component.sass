@@ -1,0 +1,41 @@
+@import '../../../../variables.sass'
+
+.project-status-info
+  display: flex
+  justify-content: center
+  background: $lino-green
+  padding: 9px 26px
+  margin-left: -26px
+  margin-right: -26px
+  margin-top: -20px
+  margin-bottom: 18px
+
+  .alert-link
+    text-decoration: underline
+    font-weight: $bold-weight
+
+.section
+  width: 100%
+  margin-bottom: 60px
+  .step-header, div
+    position: relative
+    img
+      width: 100%
+      z-index: -2
+      border-radius: $radius-all
+    .step-count
+      display: block
+      width: 80px
+      height: 20px
+      background: $lino-green
+      color: white
+      text-align: center
+      border-radius: $radius-bottom
+      position: absolute
+      right: 10%
+      margin-top: 0
+.section-end
+  text-align: center
+  margin-top: 150px
+  margin-bottom: 100px
+

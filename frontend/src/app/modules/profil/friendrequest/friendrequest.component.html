@@ -1,0 +1,9 @@
+<div>
+  <div class="title-container">
+    <h1>Freundschaftsanfragen</h1>
+  </div>
+  <div>
+    <p id="notification" *ngIf="user.invitations.length < 1">Momentan sind keine Freundschaftsanfragen vorhanden.</p>
+    <app-friendrequest-card *ngFor="let r of requests; index as i;" [request]="r" [invitation]="invitations[i]" (changed)="getUserData()"></app-friendrequest-card>
+  </div>
+</div>

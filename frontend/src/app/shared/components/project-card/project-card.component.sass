@@ -1,0 +1,54 @@
+
+@import '../../../../variables.sass'
+
+
+/* GLOBAL STYLING */
+
+h3
+  margin: 0px 0px 5px 0px
+
+p
+ margin: 0
+
+
+/* CARD */
+
+.project-card
+  background-color: $lino-petrol-light
+  height: 120px
+  width: 100%
+  border-radius: $radius-all
+  box-shadow: $shadow
+  display: flex
+  padding: 0 0 0 10px
+  box-sizing: border-box
+  margin-top: 18px
+  overflow: hidden
+  .container-left
+    float: left
+    width: 65%
+    padding-right: 20px
+    padding-left: 10px
+    .header-icons
+      display: flex
+      justify-content: space-between
+      margin-bottom: 10px
+      .category-icons
+        margin-top: 10px
+
+        img
+          margin-right: 7px
+          height: 20px
+          width: 20px
+      .parent-icon
+          height: 32px
+          width: 32px
+
+  .container-right
+    width: 35%
+    overflow: hidden
+    .card-image
+      height: 120px
+      width: auto
+      justify-content: center
+

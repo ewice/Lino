@@ -1,0 +1,45 @@
+<div class="title-container">
+  <h1>Profil</h1>
+</div>
+<div *ngIf="user" class="profile-content">
+  <div *ngIf="!friend" class="notification-container">
+    <img src="../../../../assets/icons/friend.svg" class="notification-icon" routerLink="/profil/friendrequest">
+    <div class="notification" *ngIf="user.invitations.length > 0">
+      <p>{{ user.invitations.length }}</p>
+    </div>
+  </div>
+
+  <div class="profile-info-container">
+    <!-- Freund Profil -->
+    <div *ngIf="user && friend" id="friend-info">
+      <img src="https://linodh.herokuapp.com/{{ user.profilImageUrl }}" class="profile-picture-friend">
+      <h2>{{ user?.username }}</h2>
+    </div>
+
+    <!-- Eigenes Profil -->
+    <div *ngIf="user && !friend" id="user-info">
+      <img src="https://linodh.herokuapp.com/{{ user.profilImageUrl }}" class="profile-picture">
+      <div class="name-button-container">
+        <h2>{{ user?.username }}</h2>
+        <button class="btn-turquoise-sm-ol" routerLink="/profil/edit">Profil bearbeiten</button>
+        <button class="btn-turquoise-sm" routerLink="/profil/friends">Meine Freunde</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aktive und beendete Projekte -->
+  <div class="projects-container">
+    <p class="active" [class.active]="startedTaks" (click)="toggleStartedTask(true)">
+      Begonnene Aufgaben
+    </p>
+    <p [class.active]="!startedTaks" (click)="toggleStartedTask(false)">
+      Beendete Aufgaben
+    </p>
+  </div>
+
+  <div *ngIf="startedTaks">
+    <app-project-begin-card *ngFor="let ap of activeProjekts" [element]="ap" [user]="user" (click)="navigate(ap._id)"></app-project-begin-card>
+  </div>
+  <div *ngIf="!startedTaks">
+    <app-project-end-card *ngFor="let fp of finishedProjekts" [friendResults]="fp" [user]="user" (click)="navigate(fp.projectId)"></app-project-end-card>
+</div>

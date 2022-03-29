@@ -1,0 +1,38 @@
+<div class="login">
+  <div id="lino">
+    <img src="../../../assets/lino.svg" alt="Lino" />
+    <p class="h1">Schön, dass du wieder da bist!</p>
+  </div>
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <div class="form-group">
+          <label for="email">E-Mail</label>
+          <div id="loginEmail" class="input">
+            <img class="img-right" src="../../../assets/mail.svg" alt="Mail Icon" />
+            <input type="email" formControlName="email" />
+          </div>
+          <p class="alert" *ngIf="email.invalid && email.dirty">
+              E-Mail ungültig
+          </p>
+      </div>
+      <div class="form-group">
+          <label for="password">Passwort</label>
+          <div id="loginPassword" class="input">
+            <img class="img-right" src="../../../assets/password.svg" alt="Passwort Icon" />
+            <input id="passwordinput" [type]="hide ? 'password' : 'text'" formControlName="password" required />
+            <img class="img-left" (click)="hide = !hide" [src]="hide ? '../../../assets/passwordShow.svg' : '../../../assets/passwordHide.svg'" [style.height]="hide ? '15px' : '19px'" alt="Passwort anzeigen" />
+          </div>
+          <p class="alert" *ngIf="password.invalid && password.touched" >
+              Passwort ungültig
+          </p>
+      </div>
+      <p *ngIf="error" class="alert">E-Mail oder Passwort stimmt nicht.</p>
+      <div id="loginButton">
+        <button type="submit" [disabled]="!loginForm.valid" routerLink="/" routerLinkActive="active" class="btn-turquoise">Anmelden</button>
+      </div>
+      <p id="register">Noch kein Linchen? Hier <a routerLink="/register" routerLinkActive="active">registrieren</a></p>
+  </form>
+  <p>
+    Bei dieser Seite handelt es sich um eine studentische Arbeit des Studiengangs Onlinemedien der DHBW Mosbach.
+  </p>
+  <a routerLink="/impressumUndDatenschutz">Impressum und Datenschutzerklärung</a>
+</div>

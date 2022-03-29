@@ -1,0 +1,11 @@
+<div class="title-container">
+  <h1 *ngIf="!pinnedProjects.length">Meine Merkliste (0)</h1>
+  <h1 *ngIf="pinnedProjects.length">Meine Merkliste ({{amountPinnedProjects}})</h1>
+</div>
+<p *ngIf="pinnedProjects.length < 1">Deine Merkliste ist aktuell leer. Wenn du ein Projekt zur Merkliste hinzufügen möchtest, gehe in ein Projekt und klicke auf den Pin :)</p>
+<div class="pinned-projects">
+    <div *ngFor="let project of pinnedProjects">
+        <app-project-card [element]="project" (click)="navigate(project._id)"></app-project-card>
+        <img class="pin" src="../../../assets/icons/pin.png" alt="pin" (click)="removeProject(project)">
+    </div>
+</div>

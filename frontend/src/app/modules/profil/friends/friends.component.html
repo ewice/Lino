@@ -1,0 +1,22 @@
+<div>
+  <div class="title-container">
+    <h1>Freunde</h1>
+  </div>
+  <div>
+    <div class="search">
+      <div class="input">
+        <input id="search-input" type="text" (focusout)="findFriend($event)" placeholder="Freunde suchen..." [(ngModel)]="value">
+        <img src="../../../../assets/icons/cross.svg" alt="Suchen Icon" (click)="value=''" *ngIf="value">
+      </div>
+      <div id="search-icon">
+        <img src="../../../../assets/icons/icon-search.png" alt="Suchen Icon">
+      </div>
+    </div>
+    <div *ngIf="!friend">
+      <app-friends-card *ngFor="let f of friends" [friend]="f"></app-friends-card>
+    </div>
+    <div *ngIf="friend">
+      <app-friendadd-card [friend]="friend" [userId]="user._id"></app-friendadd-card>
+    </div>
+  </div>
+</div>

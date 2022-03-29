@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "5ea1fe7dd51e0c30fac8d4ff"
+  },
+  "friends": [],
+  "activeProjects": [],
+  "finishedProjects": [],
+  "favProjects": [],
+  "pwd": "$2b$10$fKyS73lXvN3TAwOGv44HtupymybqJTwqEBGfcQFeJf769Dvi74q4.",
+  "email": "magroskopf@web.de",
+  "username": "adolfus",
+  "firstname": "adolfus",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ea2d1c3e7b2784f322ffe42"
+  },
+  "friends": [],
+  "activeProjects": [],
+  "finishedProjects": [],
+  "favProjects": [],
+  "pwd": "$2b$10$j.JOzP5FjbK8JVzC9k0sJ.UzXrQsV.LVRkMvd.dt1aS1jVqwtbThC",
+  "email": "magr@web.de",
+  "username": "adolf",
+  "firstname": "adolf",
+  "__v": 0
+}]

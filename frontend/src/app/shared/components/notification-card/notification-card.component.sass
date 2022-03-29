@@ -1,0 +1,42 @@
+/* ----- IMPORT ----- */
+
+@import "../../../../variables.sass";
+
+
+/* ----- CLASSES & SELECTORS ----- */
+
+.notification-card
+  height: 90px
+  width: 100%
+  background-color: $lino-petrol-light
+  border-radius: $radius-all
+  padding: 10px
+  box-shadow: $shadow
+  margin-bottom: 10px
+  box-sizing: border-box
+
+  .notification-icon-container
+    height: 100%
+    width: auto
+    float: left
+
+    .notification-icon
+      height: 60px
+      width: 60px
+      top: 50%
+      position: relative
+      transform: translate(0, -50%)
+      border-radius: $radius-all
+
+  .notification-text-container
+    float: left
+    width: 75%
+    height: 100%
+    margin-left: 10px
+
+    h5
+      margin-bottom: 6px
+      margin-top: 9px
+
+    p
+      margin-top: 6px

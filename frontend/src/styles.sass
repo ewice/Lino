@@ -1,0 +1,236 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* ----- IMPORT ----- */
+
+@import 'variables.sass'
+@import url('https://fonts.googleapis.com/css?family=Mali:700|Quicksand:400,500,700&display=swap')
+
+
+/* ----- BODY & CONTAINER ----- */
+
+body
+  padding: 0px 18px
+  background-color: $lino-petrol
+  margin: 0px
+
+.content-container
+  height: 120px
+
+html
+  box-sizing: border-box
+
+
+/* ----- FONTS ----- */
+
+/* FONT FAMILY */
+h2, h3, h4, h5, p, li, label, input, a
+  font-family: Quicksand
+
+/* HEADLINES */
+h1, h2, h3, h4, h5
+  font-weight: $bold-weight
+  color: $lino-blue-light
+
+/* h1 for header headline */
+h1, .h1
+  font-family: Mali
+  font-size: 28px
+  letter-spacing: -0.03em
+
+/* h2 for category headline */
+h2
+  font-size: 20px
+
+/* h3 for project headline or headlines within content */
+h3
+  font-size: 18px
+
+/* h4 for flags like 'Schritt 1' or amount of likes on a project */
+h4
+  font-size: 16px
+
+/* h5 for notifications */
+h5
+  font-size: 13px
+
+/* PARAGRAPH */
+
+p, li, a, label, input
+  font-size: 15px
+  font-weight: $normal-weight
+  color: $lino-blue-light
+
+ul
+  list-style: none
+  padding-left: 15px
+
+
+ul li::before
+  content: "\2022"
+  color: $lino-green
+  font-weight: bold
+  display: inline-block
+  width: 1em
+  margin-left: -1em
+
+/* CLASSES FOR TEXT */
+
+/* Weight change for declaration or menu text*/
+.text-bold
+  font-weight: $bold-weight
+
+.text-medium
+  font-weight: $medium-weight
+
+/* Smaller text for feed*/
+.text-fs-13
+  font-size: 13px
+
+/* colors on dark background */
+.text-green
+  color: $lino-green-light
+
+.text-orange
+  color: $lino-orange-light
+
+.text-turquoise
+  color: $lino-turquoise-light
+
+.text-yellow
+  color: $lino-yellow-light
+
+.text-timestamp
+  color: $lino-blue
+
+.text-center
+  text-align: center
+
+
+/* ----- BUTTONS ----- */
+
+.btn-green, .btn-turquoise, .btn-yellow, .btn-green-sm, .btn-turquoise-sm, .btn-yellow-sm, .btn-green-sm-ol, .btn-turquoise-sm-ol, .btn-yellow-sm-ol
+  font-family: Mali
+  font-weight: $bold-weight
+  text-align: center
+  color: $lino-white
+  text-decoration: none
+  border: none
+
+.btn-green, .btn-turquoise, .btn-yellow
+  height: 40px
+  width: 162px
+  border-radius: 20px
+  font-size: 16px
+
+.btn-green-sm, .btn-turquoise-sm, .btn-yellow-sm, .btn-green-sm-ol, .btn-turquoise-sm-ol, .btn-yellow-sm-ol
+  height: 30px
+  width: 105px
+  border-radius: 15px
+  font-size: 12px
+
+.btn-green, .btn-green-sm
+  background-color: $lino-green
+  &:active
+	  background-color: darken($lino-green, $darken-amount)
+
+.btn-turquoise, .btn-turquoise-sm
+  background-color: $lino-turquoise
+  &:active
+    background-color: darken($lino-turquoise, $darken-amount)
+
+.btn-yellow, .btn-yellow-sm
+  background-color: $lino-yellow
+  &:active
+    background-color: darken($lino-yellow, $darken-amount)
+
+.btn-green-sm-ol, .btn-turquoise-sm-ol, .btn-yellow-sm-ol
+  border: 2px solid black
+  background-color: transparent
+
+.btn-green-sm-ol
+  border-color: $lino-green
+  color: $lino-green
+  &:active
+	  border-color: darken($lino-green, $darken-amount)
+
+.btn-turquoise-sm-ol
+  border-color: $lino-turquoise
+  color: $lino-turquoise
+  &:active
+	  border-color: darken($lino-turquoise, $darken-amount)
+
+.btn-yellow-sm-ol
+  border-color: $lino-yellow
+  color: $lino-turquoise
+  &:active
+	  border-color: darken($lino-yellow, $darken-amount)
+
+
+/* ----- NAVIGATION ----- */
+
+nav
+  bottom: 0
+  left: 0
+  position: fixed
+  box-sizing: border-box
+  width: 100%
+  padding: 0 18px
+  background-color: $lino-petrol-dark
+  height: 85px
+  z-index: 1
+  ul
+    width: 100%
+    box-sizing: border-box
+    z-index: 2
+    position: absolute
+    left: 0
+    padding: 0
+    top: -40px
+    display: flex
+    flex-direction: row
+    list-style-type: none
+    justify-content: space-evenly
+    .active-link
+      height: 65px
+      width: 65px
+    li
+      display: flex
+      flex-direction: column
+      text-align: center
+      &::before
+        content: ""
+      span
+        margin-top: 10px
+      img
+        height: 55px
+        width: 55px
+        filter: drop-shadow($shadow)
+        &:focus
+        outline: none
+
+/* ----- OTHER ELEMENTS ----- */
+
+hr
+  border: 0.5px solid $lino-blue
+  margin: 10px -10px
+
+.title-container
+  background: $lino-petrol-dark
+  width: 100%
+  position: fixed
+  top: 136px
+  left: 0
+  padding: 10px 18px 10px 18px
+  z-index: 99999
+
+  h1
+    margin: 0
+
+input, .input
+  box-sizing: border-box
+  color: $lino-petrol-dark
+  width: 100%
+  border-radius: 10px
+  border-color: transparent
+  font-size: 16px
+  background-color: $lino-blue-light

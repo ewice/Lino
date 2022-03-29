@@ -1,0 +1,26 @@
+<div class="category">
+  <div>
+    <h1>Kategorie anlegen</h1>
+    <form [formGroup]="categoryForm" (ngSubmit)="createCategory()">
+      <div class="form-group">
+          <label for="title">Kategorie</label>
+          <br>
+          <input type="text" formControlName="title" />
+      </div>
+      <div class="form-group">
+        <label for="description">Beschreibung</label>
+        <br>
+        <input type="text" formControlName="description" />
+      </div>
+      <div class="form-group">
+        <label for="image">Bild</label>
+        <br>
+        <input class="custom-file-input" type="file" (change)="onFileSelect($event)"/>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="btn-green">Anlegen</button>
+        <button routerLink="/category" class="btn-green-sm-ol cancel-button">Abbrechen</button>
+      </div>
+    </form>
+  </div>
+</div>

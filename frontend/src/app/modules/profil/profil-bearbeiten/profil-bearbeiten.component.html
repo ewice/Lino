@@ -1,0 +1,48 @@
+<div class="editProfil">
+  <div class="title-container">
+    <h1>Benutzerinfos</h1>
+  </div>
+  <div class="profile-picture">
+    <h2>Profilbild</h2>
+    <img src="https://linodh.herokuapp.com/{{ user?.profilImageUrl }}" class="profileimage">
+    <a routerLink="/profil/image">Profilbild ändern?</a>
+  </div>
+  <form [formGroup]="profilForm"  (ngSubmit)="saveProfil()">
+    <br>
+    <div class="form-group">
+      <label for="username">Benutzername</label>
+      <div id="loginEmail" class="input">
+        <img class="img-right" src="../../../assets/user.svg" alt="Mail Icon" />
+        <input type="text" formControlName="username" required/>
+      </div>
+      <p class="alert" *ngIf="username.invalid && username.touched" >
+          Benutzername muss länger als 4 Zeichen sein.
+      </p>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="email">E-Mail</label>
+      <div id="loginEmail" class="input">
+        <img class="img-right" src="../../../assets/mail.svg" alt="Mail Icon" />
+        <input type="email" formControlName="email" />
+      </div>
+      <p class="alert" *ngIf="email.invalid && email.dirty">
+        E-Mail ungültig
+      </p>
+    </div>
+    <p *ngIf="error" class="alert">E-Mail existiert bereits.</p>
+    <br>
+    <button type="submit" [disabled]="!profilForm.valid" class="btn-turquoise">Speichern</button>
+  </form>
+  <br>
+  <br>
+  <a routerLink="/profil/password">Passwort ändern?</a>
+  <br>
+  <br>
+  <a>Konto löschen?</a>
+  <br>
+  <br>
+  <div id="logout">
+    <a (click)="logout()" routerLink="/login" routerLinkActive="active">&#10140; Ausloggen</a>
+  </div>
+</div>

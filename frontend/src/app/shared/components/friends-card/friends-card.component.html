@@ -1,0 +1,9 @@
+<div class="friend-card">
+  <div class="friend-icon-container">
+    <img src="https://linodh.herokuapp.com/{{ friend.profilImageUrl }}" class="notification-icon" alt="icon">
+  </div>
+  <div class="friend-text-container">
+    <h5>{{ friend.username }}</h5>
+    <button class="btn-turquoise-sm" routerLink="/profil/{{ friend._id }}">Zum Profil</button>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div>
+  <h1>Angelegte Projekte</h1>
+  <app-project-card *ngFor="let project of projects" [element]=project (deleted)='getProjects()'></app-project-card>
+  <button routerLink="/project" class="btn-turquoise-sm-ol">Zurück</button>
+</div>

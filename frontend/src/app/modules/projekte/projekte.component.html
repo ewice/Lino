@@ -1,0 +1,6 @@
+<div class="title-container">
+  <h1>Wähle eine Kategorie</h1>
+</div>
+  <app-category-card *ngFor="let category of categories" (click)="navigate(category)" [element]="category"></app-category-card>
+
+

@@ -1,0 +1,44 @@
+<div class="title-container">
+  <h1>Passwort ändern</h1>
+</div>
+<br>
+<div class="password">
+  <form [formGroup]="passwordForm"  (ngSubmit)="savePassword()">
+    <div class="form-group">
+        <label for="oldPassword">Altes Passwort</label>
+        <div class="input">
+          <img class="img-right" src="../../../assets/password.svg" alt="Passwort Icon" />
+          <input type="password" formControlName="oldPassword" required />
+          <img class="img-left" src="../../../assets/passwordShow.svg" alt="Passwort anzeigen" />
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="password">Passwort</label>
+        <div class="input">
+          <img class="img-right" src="../../../assets/password.svg" alt="Passwort Icon" />
+          <input type="password" formControlName="password" required />
+          <img class="img-left" src="../../../assets/passwordShow.svg" alt="Passwort anzeigen" />
+        </div>
+        <p class="alert" *ngIf="password.invalid && password.touched" >
+            Passwort muss länger als 7 Zeichen sein.
+        </p>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="passwordConfirm">Passwort bestätigen</label>
+      <div class="input">
+        <img class="img-right" src="../../../assets/password.svg" alt="Passwort Icon" />
+        <input type="password" formControlName="passwordConfirm" required />
+        <img class="img-left" src="../../../assets/passwordShow.svg" alt="Passwort anzeigen" />
+      </div>
+      <p class="alert" *ngIf="passwordConfirm.value != password.value && passwordConfirm.touched" >
+        Passwörter stimmen nicht überein.
+      </p>
+    </div>
+    <p *ngIf="error" class="alert">Altes Passwort stimmt nicht.</p>
+    <div class="btn">
+      <button type="submit" [disabled]="!passwordForm.valid" class="btn-turquoise">Bestätigen</button>
+    </div>
+  </form>
+</div>

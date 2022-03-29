@@ -1,0 +1,6 @@
+<div>
+  <h1>Angelegte Kategorien</h1>
+  <app-category-card *ngFor="let category of categories" [element]=category (deleted)="getCategories()"></app-category-card>
+  <button routerLink="/category" class="btn-turquoise-sm-ol">Zurück</button>
+</div>
+

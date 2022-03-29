@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "5ebcf9188675df4332900d6f"
+  },
+  "projects": [
+    {
+      "$oid": "5ebcff0a8675df4332900d74"
+    },
+    {
+      "$oid": "5ebd31f48675df4332900d7b"
+    },
+    {
+      "$oid": "5ebe531e8675df4332900d7e"
+    },
+    {
+      "$oid": "5ebe93cf8675df4332900d80"
+    },
+    {
+      "$oid": "5ebe95458675df4332900d81"
+    },
+    {
+      "$oid": "5ec283f4f01bfb9fd81ab2d1"
+    }
+  ],
+  "title": "Natur & Umwelt",
+  "description": "Blumen pflanzen, Tiere  erforschen, Experimente, …",
+  "imgUrl": "uploads/Natur.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebcf9428675df4332900d70"
+  },
+  "projects": [
+    {
+      "$oid": "5ebd31f48675df4332900d7b"
+    },
+    {
+      "$oid": "5ec283f4f01bfb9fd81ab2c9"
+    },
+    {
+      "$oid": "5ec283f4f01bfb9fd81ab2d1"
+    }
+  ],
+  "title": "Technik & Handwerk",
+  "description": "Arbeiten mit Holz und anderen Materialien, nageln, kleben, …",
+  "imgUrl": "uploads/Handwerk.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebcf95b8675df4332900d71"
+  },
+  "projects": [
+    {
+      "$oid": "5ebd53f68675df4332900d7d"
+    },
+    {
+      "$oid": "5ec27c1ef01bfb9fd81ab2c8"
+    },
+    {
+      "$oid": "5ebe531e8675df4332900d7e"
+    }
+  ],
+  "title": "Handarbeit",
+  "description": "Nähen, stricken, häkeln, weben, knüpfen, …",
+  "imgUrl": "uploads/Handarbeit.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebcf9848675df4332900d72"
+  },
+  "projects": [
+    {
+      "$oid": "5ebd39e08675df4332900d7c"
+    },
+    {
+      "$oid": "5ebe531e8675df4332900d7e"
+    },
+    {
+      "$oid": "5ebe9b778675df4332900d82"
+    },
+    {
+      "$oid": "5ec26198f01bfb9fd81ab2c5"
+    }
+  ],
+  "title": "Malen & Basteln",
+  "description": "Malen mit verschiedenen Farben, Bastelprojekte, …",
+  "imgUrl": "uploads/Basteln.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebcf9968675df4332900d73"
+  },
+  "projects": [
+    {
+      "$oid": "5ebe5ebb8675df4332900d7f"
+    },
+    {
+      "$oid": "5ec27626f01bfb9fd81ab2c6"
+    },
+    {
+      "$oid": "5ec27927f01bfb9fd81ab2c7"
+    }
+  ],
+  "title": "Kochen & Backen",
+  "description": "Einfache Gerichte, kalte Küche, einfache Backwaren, …",
+  "imgUrl": "uploads/Backen.svg",
+  "__v": 0
+}]

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5ebd09458675df4332900d75"
+  },
+  "imgUrl": "uploads/ani_cat.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd094c8675df4332900d76"
+  },
+  "imgUrl": "uploads/ani_dog.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd09518675df4332900d77"
+  },
+  "imgUrl": "uploads/ani_lion.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd09568675df4332900d78"
+  },
+  "imgUrl": "uploads/ani_monkey.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd095b8675df4332900d79"
+  },
+  "imgUrl": "uploads/ani_mouse.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ebd09618675df4332900d7a"
+  },
+  "imgUrl": "uploads/ani_panda.svg",
+  "__v": 0
+}]

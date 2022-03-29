@@ -1,0 +1,27 @@
+<div *ngIf="user || author" class="project-card">
+  <div class="parent-icon">
+    <img src="../../../../assets/icons/icon-check.png" alt="parent">
+  </div>
+  <div class="user">
+    <img *ngIf="user" class="profile-picture" src="https://linodh.herokuapp.com/{{user?.profilImageUrl}}" alt="Profilbild">
+    <img *ngIf="!user" class="profile-picture" src="https://linodh.herokuapp.com/{{author?.profilImageUrl}}" alt="Profilbild">
+    <div class="profile-info">
+      <p class="text-bold username" *ngIf="user">{{user?.username}}</p>
+      <p class="text-bold username" *ngIf="!user">{{author?.username}}</p>
+      <p class="text-fs-13"> hat eine Aufgabe beendet</p>
+      <p class="text-fs-13 text-timestamp">
+        <span class="text-bold">{{ time | date : 'dd.MM.yyyy, HH:mm' }}</span> Uhr
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="project-info">
+    <div class="box">
+      <img *ngIf="friendResults" class="project-picture" src="https://linodh.herokuapp.com/{{friendResults.imgUrl}}" alt="parent">
+    </div>
+    <p class="text-fs-13">
+      {{friendResults?.text}}
+    </p>
+    <br>
+  </div>
+</div>

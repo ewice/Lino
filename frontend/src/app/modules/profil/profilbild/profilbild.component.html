@@ -1,0 +1,15 @@
+<div>
+  <div class="title-container">
+    <h1>Wähle ein Profilbild</h1>
+  </div>
+  <div class="select-profile-picture">
+    <div class="profil-container" *ngFor="let image of profilImages">
+      <img class="profil-images" src="https://linodh.herokuapp.com/{{ image.imgUrl }}" (click)="selectImage(image.imgUrl, $event)">
+    </div>
+    <p *ngIf="error" class="alert">Kein Profilbild ausgewählt.</p>
+  </div>
+  <br>
+  <div class="btn">
+    <button class="btn-turquoise" (click)="saveImgInProfil()">Speichern</button>
+  </div>
+</div>
